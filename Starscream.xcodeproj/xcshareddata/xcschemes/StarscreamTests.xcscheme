@@ -9,14 +9,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6B3E79E519D48B7F006071F7"
-               BuildableName = "Starscream.framework"
-               BlueprintName = "Starscream iOS"
+               BlueprintIdentifier = "6B3E79F019D48B7F006071F7"
+               BuildableName = "Starscream iOSTests.xctest"
+               BlueprintName = "Starscream iOSTests"
                ReferencedContainer = "container:Starscream.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6B3E79F019D48B7F006071F7"
+               BuildableName = "Starscream iOSTests.xctest"
+               BlueprintName = "Starscream iOSTests"
+               ReferencedContainer = "container:Starscream.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "6B3E79F019D48B7F006071F7"
+            BuildableName = "Starscream iOSTests.xctest"
+            BlueprintName = "Starscream iOSTests"
+            ReferencedContainer = "container:Starscream.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -45,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6B3E79E519D48B7F006071F7"
-            BuildableName = "Starscream.framework"
-            BlueprintName = "Starscream iOS"
+            BlueprintIdentifier = "6B3E79F019D48B7F006071F7"
+            BuildableName = "Starscream iOSTests.xctest"
+            BlueprintName = "Starscream iOSTests"
             ReferencedContainer = "container:Starscream.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6B3E79E519D48B7F006071F7"
-            BuildableName = "Starscream.framework"
-            BlueprintName = "Starscream iOS"
+            BlueprintIdentifier = "6B3E79F019D48B7F006071F7"
+            BuildableName = "Starscream iOSTests.xctest"
+            BlueprintName = "Starscream iOSTests"
             ReferencedContainer = "container:Starscream.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

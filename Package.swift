@@ -1,5 +1,3 @@
-// swift-tools-version:4.2
-
 //
 //  Package.Swift
 //  Starscream
@@ -23,14 +21,5 @@
 import PackageDescription
 
 let package = Package(
-        name: "Starscream",
-        products: [
-            .library(name: "Starscream", targets: ["Starscream"])
-        ],
-        dependencies: [
-          .package(url: "https://github.com/apple/swift-nio-zlib-support.git", from: "1.0.0")
-        ],
-        targets: [
-            .target(name: "Starscream")
-        ]
+    name: "Starscream"
 )
